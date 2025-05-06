@@ -1,27 +1,46 @@
-# jobs-hunter
 
-This template should help get you started developing with Vue 3 in Vite.
+#  Vue Jobs Project
+This project is a single-page application (SPA) built with Vue.js, enabling users to perform Create, Read, Update, and Delete (CRUD) operations on job listings. It utilizes JSON Server as a mock backend, allowing for rapid development and testing without the need for a real backend server.
 
-## Recommended IDE Setup
+![image](https://github.com/user-attachments/assets/71c4e08a-04f2-4f1a-9537-986115e4a780)
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## Usage
 
-## Customize configuration
+This project uses JSON-Server for a mock API.
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+### Install Dependencies
 
-## Project Setup
-
-```sh
+```bash
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+### Run JSON Server
 
-```sh
+The server will run on http://localhost:5000
+
+```bash
+npm run server
+```
+
+### Run Vite Frontend
+
+Vue will run on http://localhost:3000
+
+```bash
 npm run dev
 ```
 
+### Build for Production
+
+```bash
+npm run build
+```
+
+### Preview Production Build
+
+```bash
+npm run preview
+```
 ### Compile and Minify for Production
 
 ```sh
